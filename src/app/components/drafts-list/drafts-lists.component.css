@@ -1,0 +1,7 @@
+.empty { color:#666; padding:10px 0; }
+.draft { display:flex; justify-content:space-between; align-items:center; padding:10px; border:1px solid #eee; border-radius:10px; margin: 8px 0; }
+.name { font-weight:700; }
+.sub { color:#666; font-size: 12px; margin-top: 4px; }
+.btns { display:flex; gap:8px; }
+button { padding: 8px 10px; border-radius: 8px; border:1px solid #ccc; background:#fff; cursor:pointer; }
+.danger { border-color: #f3b; }
