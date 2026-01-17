@@ -41,8 +41,10 @@ export class DashboardComponent {
   }
 
   open(draftId: string) {
+    const draft = this.store.get(draftId);
+    if(!draft) return;
     // simple MVP approach: open same route but pass draftId as query param
-    this.router.navigate(['/create', 'VENT'], { queryParams: { draftId } });
+    this.router.navigate(['/create', draft.noteType], { queryParams: { draftId } });
   }
 
   remove(draftId: string) {
