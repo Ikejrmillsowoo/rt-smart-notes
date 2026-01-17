@@ -7,7 +7,7 @@ import { NoteDraft } from '../../models/note.model';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <div *ngIf="!drafts?.length" class="empty">No drafts saved yet.</div>
+    <div *ngIf="!drafts.length" class="empty">No drafts saved yet.</div>
 
     <div *ngFor="let d of drafts" class="draft">
       <div class="meta">
