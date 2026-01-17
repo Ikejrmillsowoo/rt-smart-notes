@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
       <label class="item" *ngFor="let o of options">
         <input
           type="checkbox"
-          [checked]="value?.includes(o)"
+          [checked]="value.includes(o)"
           (change)="toggle(o, $event)"
         />
         <span>{{ o }}</span>
