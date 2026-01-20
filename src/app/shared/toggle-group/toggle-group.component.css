@@ -1,4 +1,6 @@
-.lbl { font-size: 12px; color:#555; margin-bottom: 6px; }
+.lbl { font-size: 12px; color:#ffffff; margin-bottom: 6px; }
 .toggles { display:flex; flex-wrap:wrap; gap:8px; }
 button { padding: 8px 10px; border-radius: 999px; border: 1px solid #ddd; background:#fff; cursor:pointer; }
 .active { border-color:#0b5; }
+
+

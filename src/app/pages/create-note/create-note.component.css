@@ -1,6 +1,7 @@
 .row { display:flex; align-items:center; gap:12px; }
 .link { background:none; border:none; color:#0b5; cursor:pointer; padding:0; }
-.panel { margin-top: 12px; padding: 12px; border: 1px solid #e5e5e5; border-radius: 10px; }
+.panel { margin-top: 12px; padding: 12px; border: 1px solid #e5e5e5; border-radius: 10px;}
 .actions { display:flex; justify-content:flex-end; gap:10px; margin-top: 12px; }
 button { padding: 10px 12px; border-radius: 8px; border: 1px solid #ccc; background: #fff; cursor:pointer; }
 button:disabled { opacity: .5; cursor:not-allowed; }
+

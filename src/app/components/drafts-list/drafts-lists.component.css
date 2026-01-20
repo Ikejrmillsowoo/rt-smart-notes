@@ -1,4 +1,4 @@
-.empty { color:#666; padding:10px 0; }
+.empty { color:#838282; padding:10px 0; }
 .draft { display:flex; justify-content:space-between; align-items:center; padding:10px; border:1px solid #eee; border-radius:10px; margin: 8px 0; }
 .name { font-weight:700; }
 .sub { color:#666; font-size: 12px; margin-top: 4px; }
